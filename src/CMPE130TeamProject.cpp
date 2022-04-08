@@ -11,10 +11,7 @@ using namespace std;
 
 int main() {
 	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
-	cout << "David made some changes" <<endl;
-	cout << "David made more changes" <<endl;
-	cout << "David made more changes" <<endl;
-	cout << "David made more changes" <<endl;
-	cout << "David made more changes" <<endl;
+	cout << "David made no changes" <<endl;
+
 	return 0;
 }
