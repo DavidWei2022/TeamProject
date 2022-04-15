@@ -1,5 +1,10 @@
 class Student {
     public:
-    int gpa;
+    int averageGpa;
+    int semesterGpa;
+    int studentId;
     char* name;
+    char* majors;
+    int year;
+    int totalCredits;
 };
