@@ -6,11 +6,20 @@
 // Description : Hello World in C++, Ansi-style
 //============================================================================
 
+
+#include <cmath>
 #include <iostream>
+#include <fstream>
+#include <sstream>
+#include <cstring>
+#include <list>
 #include "Student.cpp"
 using namespace std;
 
+
+//Student::Student(char* name1, char*majors1, int year1, int studentId1){
 int main() {
+	Student David("David","CMPE",2022,123);
 	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
 	cout << "David made no changes" <<endl;
 	cout << "hi312321312hihi" <<endl;
