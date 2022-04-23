@@ -21,17 +21,5 @@ class Student {
     int totalCredits;
 };
 
-class HashTable{
-    private:
-        static const int hashgroup = 10;
-        list<pair<int, string>> table[hashgroup];
 
-    public:
-        bool isEmpty();
-        int hashFunction(int key);
-        void insertItem(int key, string value);
-        void removeItem(int key);
-        string SearchTable(int key);
-        void printTable();
-};
 #endif
