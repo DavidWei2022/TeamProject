@@ -9,6 +9,12 @@
 using namespace std;
 
 
+HashTable::HashTable()
+{
+    // this->hashgroup = b;
+    //make
+    // table = new list<pair<int, string>>[hashgroup];
+}
 
 HashTable::HashTable(int b)
 {

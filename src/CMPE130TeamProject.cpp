@@ -13,8 +13,8 @@
 #include <sstream>
 #include <cstring>
 #include <list>
-// #include "Student.cpp"
-// #include "Hashtable.cpp"
+#include "Student.cpp"
+#include "Hashtable.cpp"
 using namespace std;
 
 
@@ -87,7 +87,7 @@ int main() {
 	greeting();
 
 	Student David("David","CMPE",2022,123);
-	HashTable HT;
+	HashTable HT();
 
 	if (HT.isEmpty()){
 		cout << "Table is emply to start" << endl;

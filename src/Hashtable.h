@@ -16,6 +16,7 @@ class HashTable{
         list<pair<int, string>> *table;
 
     public:
+        HashTable();
         HashTable(int b);
         //do we need isEmpty function?
         bool isEmpty();
